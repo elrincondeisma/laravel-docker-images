@@ -12,6 +12,7 @@ LABEL maintainer="Ismael <ismael@elrincondeisma.com>"
 # System dependencies
 # ==================================================
 RUN apk add --no-cache \
+    $PHPIZE_DEPS \
     bash \
     git \
     curl \
